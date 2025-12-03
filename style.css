@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    width: 480px;
+    background: #6f76d4;
+    padding: 25px;
+    color: white;
+    border-radius: 6px;
+    margin: 25px 0;
+}
+
+
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+
+.texto-topo{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 14px;
+    line-height: 1.5;
+}
+
+
+.icones{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 6px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+
+.pessoa{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.pessoa img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 4px solid #6f76d4d7;
+    box-shadow: 0 0 6px #00000050;
+}
+
+
+.nome{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.nome::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #6f76d4d5;
+    margin: 6px auto 0 auto;
+    border-radius: 10px;
+}
+
+
+.idade{
+    font-size: 12px;
+    opacity: 0.95;
+    margin-top: 4px;
+}
+
+
+.descricao{
+    margin-top: 10px;
+    font-size: 11.5px;
+    line-height: 1.45;
+    padding: 0 12px;
+    opacity: 0.95;
+}
+
+
+.contatos{
+    margin-top: 10px;
+}
+
+
+.contatos a{
+    display: block;
+    width: 200px;
+    margin: 6px auto;
+    font-size: 11px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    background: #ffffff25;
+    backdrop-filter: blur(3px);
+    border: 1px solid #ffffff40;
+    transition: 0.2s;
+}
+
+
+.contatos a:hover{
+    background: #ffffff40;
+}
+
+.link{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+}
